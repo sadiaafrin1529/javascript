@@ -12,4 +12,4 @@ function monthlySavings(payments, livingCost) {
     const savings= totalIncomeAfterTax - livingCost;
     return savings >= 0 ? savings : "earn more";
 }
-console.log(monthlySavings([ 1000 , 2000 , 3000 ] , 5400 ))
+console.log(monthlySavings([ 1000 , 2000 , 3000 ] , 5400 ));
